@@ -3,7 +3,7 @@ const express = require('express');
 
 const app = express();
 
-const { SerialPort, ReadlineParser} = require('serialport');
+const { SerialPort, ReadlineParser } = require('serialport');
 
 
 const mySerial = new SerialPort({
